@@ -1,0 +1,56 @@
+.html5BasicsComponent {
+    margin: 20px;
+}
+
+h1 {
+    font-size: 2.25rem;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+
+.inputExample {
+    padding: 5px 15px;
+    border-radius: 4px;
+    border: 1px solid lightgray;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+p {
+    color: #444444 !important;
+    font-weight: 400 !important;
+    margin-bottom: 10px;
+}
+
+article {
+    margin-bottom: 30px;
+}
+
+.link {
+    font-weight: 500;
+    color: red;
+}
+
+.link.link, 
+.link.visited, 
+.link.hover, 
+.link.active {
+    text-decoration: none;
+}
+
+.zarcoImg {
+    width: 400px;
+}
+
+ul {
+    margin-bottom: 10px;
+}
+
+footer {
+    color: #999999;
+}

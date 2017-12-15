@@ -7,6 +7,7 @@ export default function CSSBasics() {
         <div className="cssBasicsComponent">
             <div>
                 <div id="idExample">This div is styled using an id (font-weight, color, font-size)</div>
+                {/* COMP 54C */}
                 <div className="classExample">This div is styled using a class (background, margin, border, padding, width, text-align)</div>
                 <span>Here I apply styling to a span element (position, right, top, width, height, padding, color, background, background-size)</span>
                 <p>Here's a p element</p>
