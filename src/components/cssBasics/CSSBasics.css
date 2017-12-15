@@ -1,0 +1,79 @@
+.cssBasicsComponent {
+    margin: 20px;
+}
+
+#idExample { /* COMP 22C-1 */
+    font-weight: 700; /* COMP 23D */
+    color: lightskyblue; /* COMP 23D */
+    font-size: 2rem; /* COMP 23D */
+}
+
+.classExample { /* COMP 22C-2 */
+    background: lightgray; /* COMP 23E */
+    margin: 30px 0px; /* COMP 24C */
+    border: 1px solid yellow; /* COMP 24D */
+    padding: 30px; /* COMP 24E */
+    width: 400px;
+    text-align: center;
+}
+
+span {
+    position: fixed; /* COMP 25C */
+    right: 400px;
+    top: 400px;
+    width: 533px;
+    height: 300px;
+    padding: 20px;
+    color: white;
+    background: url(../../assets/Spa.jpg); /* COMP 23F */
+    background-size: cover;
+}
+
+p + p { /* COMP 22C-5 */
+    color: blue;
+    font-weight: 300;
+}
+
+p > div { /* COMP 22C-3 */
+    font-weight: 900;
+}
+
+.container {
+    border: 1px solid #444444;
+    width: 300px;
+    height: 200px;
+    padding: 20px 0px 0px 20px;
+    margin-top: 20px;
+}
+
+.floatRight {
+    float: right; /* COMP 25D */
+    border: 1px solid red;
+    width: 200px;
+    height: 100px;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.flex {
+    margin-top: 30px;
+    height: 200px;
+    width: 200px;
+    display: flex; /* COMP 25F and COMP 27G */
+    flex-direction: column; /* COMP 27F */
+    justify-content: center; /* COMP 27C */
+    align-items: center; /* COMP 27D */
+    border: 1px solid greenyellow;
+    flex-wrap: wrap; /* COMP 27E */
+}
+
+.flexElement {
+    border: 1px solid lightskyblue;
+    padding: 4px;
+    margin-bottom: 4px;
+    color: #444444;
+    font-weight: 300;
+}
+
+
+
