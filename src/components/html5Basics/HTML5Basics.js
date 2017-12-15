@@ -26,6 +26,18 @@ export default function HTML5Basics() {
                     <img className="zarcoImg" src={require('../../assets/zarco.jpg')} alt='Johann Zarco' />
                 </article>
             </section>
+            <section>
+                <p>Here's a video</p>
+                <video width="400" controls>
+                    <source src={require('../../assets/walls.mp4')} type="video/mp4" />
+                </video>
+            </section>
+            <section>
+                <p>And here's an audio file <a className="link" href='https://www.youtube.com/watch?v=8YMtL0BLCW0'>(source)</a></p>
+                <audio controls>
+                    <source src={require('../../assets/NadiaKhristean.mp3')} type="audio/mpeg" />
+                </audio>
+            </section>
             <footer>Some info for a footer goes down here</footer>
         </div>
     )
